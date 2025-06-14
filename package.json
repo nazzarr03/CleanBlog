@@ -1,0 +1,27 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nazzarr03/CleanBlog#readme",
+  "bugs": {
+    "url": "https://github.com/nazzarr03/CleanBlog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazzarr03/CleanBlog.git"
+  },
+  "license": "ISC",
+  "author": "Nazar Arık",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
