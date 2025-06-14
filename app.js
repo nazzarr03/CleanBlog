@@ -1,10 +1,15 @@
-import express from "express";
+import express from 'express';
 
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send("merhaba")
-})
+  const blog = {
+    id: 1,
+    title: 'Blog title',
+    description: 'Blog description',
+  };
+  res.send(blog);
+});
 
 const port = 3000;
 app.listen(port, () => {
